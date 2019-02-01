@@ -43,9 +43,8 @@ class Owner
 
   def buy_fish(fish)
     # .buy_fish can buy a fish that is an instance of the Fish class
-    @pets[:fishes].each do |fish|
+    @pets[:fishes].map do |fish|
       fish == fish
-      fish
     end
   end
 end
